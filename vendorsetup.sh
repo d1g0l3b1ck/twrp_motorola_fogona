@@ -5,6 +5,5 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo omni_fogona-user
-add_lunch_combo omni_fogona-userdebug
-add_lunch_combo omni_fogona-eng
+export ALLOW_MISSING_DEPENDENCIES="true"
+
