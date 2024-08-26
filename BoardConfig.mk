@@ -18,7 +18,6 @@ AB_OTA_PARTITIONS += \
     system \
     product \
     system_ext
-BOARD_USES_RECOVERY_AS_BOOT := true
 
 # Architecture
 TARGET_ARCH := arm64
@@ -78,6 +77,12 @@ TARGET_BOARD_PLATFORM := bengal
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
+
+# A/B device flags
+TARGET_NO_KERNEL := false
+TARGET_NO_RECOVERY := false
+BOARD_USES_RECOVERY_AS_BOOT := false
+BOARD_BUILD_SYSTEM_ROOT_IMAGE := false
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-08-01
