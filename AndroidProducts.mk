@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_fogona.mk
+    $(LOCAL_DIR)/twrp_fogona.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_fogona-user \
-    omni_fogona-userdebug \
-    omni_fogona-eng
+    twrp_fogona-user \
+    twrp_fogona-userdebug \
+    twrp_fogona-eng
